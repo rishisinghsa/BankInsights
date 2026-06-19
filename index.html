@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Audit Risk Radar</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+        background-color: #f5f7f6;
+    }
+
+    h1 {
+        color: #007A33; /* Nedbank green */
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+
+    .column {
+        width: 30%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .high { border-left: 6px solid #C00000; }
+    .medium { border-left: 6px solid #FF9900; }
+    .low { border-left: 6px solid #4CAF50; }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .risk {
+        margin-bottom: 20px;
+    }
+
+    .risk-title {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .impact {
+        font-size: 13px;
+        color: #666;
+        margin-top: 3px;
+    }
+
+    .insight {
+        font-size: 13px;
+        color: #007A33;
+        margin-top: 5px;
+    }
+
+    .trend {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Audit Risk Radar â€“ Forward Looking Insights</h1>
+
+<div class="container">
+
+    <!-- HIGH RISK -->
+    <div class="column high">
+        <h2>ðŸ”´ High Priority Risks</h2>
+
+        <div class="risk">
+            <div class="risk-title">Expected Credit Loss Volatility</div>
+            <div class="impact">Impact: Earnings volatility, capital sensitivity</div>
+            <div class="insight">Audit Insight: Model overlays increasing; reliance on judgment is rising</div>
+            <div class="trend">Trend: â–² Increasing risk</div>
+        </div>
+
+        <div class="risk">
+            <div class="risk-title">Going Concern & Liquidity Pressures</div>
+            <div class="impact">Impact: Funding, covenant pressure</div>
+            <div class="insight">Audit Insight: Cash flow assumptions under stress in downside scenarios</div>
+            <div class="trend">Trend: â–² Heightened monitoring required</div>
+        </div>
+
+    </div>
+
+    <!-- MEDIUM RISK -->
+    <div class="column medium">
+        <h2>ðŸŸ  Emerging Risks</h2>
+
+        <div class="risk">
+            <div class="risk-title">Digital / IT Control Environment</div>
+            <div class="impact">Impact: Financial reporting integrity</div>
+            <div class="insight">Audit Insight: Control reliance increasing but maturity uneven across platforms</div>
+            <div class="trend">Trend: â–² Increasing complexity</div>
+        </div>
+
+        <div class="risk">
+            <div class="risk-title">Revenue Recognition Complexity</div>
+            <div class="impact">Impact: Timing and accuracy of income</div>
+            <div class="insight">Audit Insight: Product innovation driving complexity in recognition rules</div>
+            <div class="trend">Trend: â–º Stable with pockets of risk</div>
+        </div>
+
+    </div>
+
+    <!-- LOW RISK -->
+    <div class="column low">
+        <h2>ðŸŸ¢ Stable / Monitored Areas</h2>
+
+        <div class="risk">
+            <div class="risk-title">Core Lending Processes</div>
+            <div class="impact">Impact: Operational efficiency</div>
+            <div class="insight">Audit Insight: Strong control environment with consistent execution</div>
+            <div class="trend">Trend: â–¼ Stable</div>
+        </div>
+
+        <div class="risk">
+            <div class="risk-title">Financial Close Process</div>
+            <div class="impact">Impact: Reporting timelines</div>
+            <div class="insight">Audit Insight: No significant breakdowns noted</div>
+            <div class="trend">Trend: â–¼ Stable</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
